@@ -15,33 +15,56 @@ You will find this is far easier than the opposite task of using CSS to cram you
   YOUR MOBILE/BASE STYLES GO HERE
 *********************************************************************/
 
-* {
-    box-sizing: border-box;
+img {
+    display: block;
+    margin-top: 1px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    border-block: 50px;
 }
 
-img {
-    width: 600px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+.headline {
+    font-style: italic;
+}
+
+.dek {
+    font-weight: 400;
 }
 
 .caption {
-    font-size:12px;
+    font-size:13px;
+    font-weight: 300;
+    font-style: italic;
 }
+
+.byline {
+    font-weight: 500;
+}
+
+.dateline {
+    font-size: 12px;
+}
+
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     font-family: "Merriweather", serif;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
 
-  margin-left:150px;
-  margin-right: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 20px;
 
-  background-color: #ffdec8;
-  margin-bottom: 25px;
+
+max-width: 750px;
+  background-color: #ffe7d1;
 
 }
 
